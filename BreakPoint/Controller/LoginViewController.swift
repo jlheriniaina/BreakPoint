@@ -10,26 +10,50 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var emailTxtField: InsetRectTextField!
+    @IBOutlet weak var passwordTxtField: InsetRectTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+      
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onClickClose(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func onClickSignIn(_ sender: Any) {
+        if emailTxtField.text != nil && emailTxtField.text != ""  && passwordTxtField.text != nil && passwordTxtField.text != "" {
+            UserService.instance.login(email: emailTxtField.text!, password: passwordTxtField.text!, complete: { (succes, error) in
+                if succes {
+                    self.dismiss(animated: true, completion: nil)
+                }else {
+                    print(error?.localizedDescription)
+                }
+                UserService.instance.registerUser(email: self.emailTxtField.text!, password: self.passwordTxtField.text!, completion: { (succes, error) in
+                    if succes {
+                        UserService.instance.login(email: self.emailTxtField.text!, password: self.passwordTxtField.text!, complete: { (succes, errorlogin) in
+                            if succes {
+                                self.dismiss(animated: true, completion: nil)
+                            }else {
+                                  print(String(describing: errorlogin?.localizedDescription))
+                            }
+                        })
+                    }else {
+                        print(String(describing: error?.localizedDescription))
+                    }
+                })
+            })
+        }else {
+            self.popuError(message: "Email ou mot de passe incorrect.\nVeuillez-ressayer...")
+        }
     }
-    */
-
+    func popuError(message: String) {
+        let  popupView = PopupViewController()
+        popupView.modalPresentationStyle = .custom
+        popupView.message = message
+        self.present(popupView, animated: true, completion: nil)
+        
+    }
+    
 }

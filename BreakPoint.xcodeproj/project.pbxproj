@@ -14,9 +14,16 @@
 		A02107B921F4885E00AD309A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107B821F4885E00AD309A /* LoginViewController.swift */; };
 		A02107BB21F489E200AD309A /* InsetRectTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107BA21F489E200AD309A /* InsetRectTextField.swift */; };
 		A02107BD21F48E3500AD309A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107BC21F48E3500AD309A /* CardView.swift */; };
+		A02107BF21F4906900AD309A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107BE21F4906900AD309A /* UserService.swift */; };
+		A02107C221F494EF00AD309A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107C121F494EF00AD309A /* Utils.swift */; };
+		A02107C421F499BA00AD309A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107C321F499BA00AD309A /* FeedViewController.swift */; };
+		A02107C721F4AECC00AD309A /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107C521F4AECC00AD309A /* PopupViewController.swift */; };
+		A02107C821F4AECC00AD309A /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02107C621F4AECC00AD309A /* PopupViewController.xib */; };
+		A02107CB21F4C61D00AD309A /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107CA21F4C61D00AD309A /* ProfilViewController.swift */; };
+		A02107CD21F4CCED00AD309A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107CC21F4CCED00AD309A /* PostViewController.swift */; };
+		A02107CF21F4DA5D00AD309A /* KeyboardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107CE21F4DA5D00AD309A /* KeyboardUIView.swift */; };
 		A08E3E8621F454DB007B0FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8521F454DB007B0FB3 /* AppDelegate.swift */; };
-		A08E3E8821F454DB007B0FB3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8721F454DB007B0FB3 /* FirstViewController.swift */; };
-		A08E3E8A21F454DB007B0FB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8921F454DB007B0FB3 /* SecondViewController.swift */; };
+		A08E3E8A21F454DB007B0FB3 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8921F454DB007B0FB3 /* GroupViewController.swift */; };
 		A08E3E8D21F454DB007B0FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E3E8B21F454DB007B0FB3 /* Main.storyboard */; };
 		A08E3E8F21F454DB007B0FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08E3E8E21F454DB007B0FB3 /* Assets.xcassets */; };
 		A08E3E9221F454DB007B0FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E3E9021F454DB007B0FB3 /* LaunchScreen.storyboard */; };
@@ -30,10 +37,17 @@
 		A02107B821F4885E00AD309A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A02107BA21F489E200AD309A /* InsetRectTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetRectTextField.swift; sourceTree = "<group>"; };
 		A02107BC21F48E3500AD309A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A02107BE21F4906900AD309A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		A02107C121F494EF00AD309A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A02107C321F499BA00AD309A /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A02107C521F4AECC00AD309A /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		A02107C621F4AECC00AD309A /* PopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		A02107CA21F4C61D00AD309A /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		A02107CC21F4CCED00AD309A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		A02107CE21F4DA5D00AD309A /* KeyboardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUIView.swift; sourceTree = "<group>"; };
 		A08E3E8221F454DB007B0FB3 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08E3E8521F454DB007B0FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A08E3E8721F454DB007B0FB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A08E3E8921F454DB007B0FB3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A08E3E8921F454DB007B0FB3 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		A08E3E8C21F454DB007B0FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A08E3E8E21F454DB007B0FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08E3E9121F454DB007B0FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,10 +79,13 @@
 		A01C886B21F4652800A6A4E7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A08E3E8721F454DB007B0FB3 /* FirstViewController.swift */,
-				A08E3E8921F454DB007B0FB3 /* SecondViewController.swift */,
+				A08E3E8921F454DB007B0FB3 /* GroupViewController.swift */,
 				A02107B621F4880800AD309A /* AUTHViewController.swift */,
 				A02107B821F4885E00AD309A /* LoginViewController.swift */,
+				A02107C321F499BA00AD309A /* FeedViewController.swift */,
+				A02107C521F4AECC00AD309A /* PopupViewController.swift */,
+				A02107CA21F4C61D00AD309A /* ProfilViewController.swift */,
+				A02107CC21F4CCED00AD309A /* PostViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +102,7 @@
 			children = (
 				A02107BA21F489E200AD309A /* InsetRectTextField.swift */,
 				A02107BC21F48E3500AD309A /* CardView.swift */,
+				A02107CE21F4DA5D00AD309A /* KeyboardUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,8 +118,25 @@
 			isa = PBXGroup;
 			children = (
 				A02107B421F471C900AD309A /* DataService.swift */,
+				A02107BE21F4906900AD309A /* UserService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		A02107C021F494DC00AD309A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A02107C121F494EF00AD309A /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A02107C921F4B07500AD309A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				A02107C621F4AECC00AD309A /* PopupViewController.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		A08E3E7921F454DB007B0FB3 = {
@@ -125,6 +160,8 @@
 		A08E3E8421F454DB007B0FB3 /* BreakPoint */ = {
 			isa = PBXGroup;
 			children = (
+				A02107C921F4B07500AD309A /* Xibs */,
+				A02107C021F494DC00AD309A /* Utils */,
 				A01C886F21F4657300A6A4E7 /* Service */,
 				A01C886E21F4655100A6A4E7 /* Extention */,
 				A01C886D21F4654000A6A4E7 /* View */,
@@ -212,6 +249,7 @@
 			files = (
 				A08E3E9221F454DB007B0FB3 /* LaunchScreen.storyboard in Resources */,
 				A02107B321F4714000AD309A /* GoogleService-Info.plist in Resources */,
+				A02107C821F4AECC00AD309A /* PopupViewController.xib in Resources */,
 				A08E3E8F21F454DB007B0FB3 /* Assets.xcassets in Resources */,
 				A08E3E8D21F454DB007B0FB3 /* Main.storyboard in Resources */,
 			);
@@ -269,14 +307,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02107CB21F4C61D00AD309A /* ProfilViewController.swift in Sources */,
+				A02107C721F4AECC00AD309A /* PopupViewController.swift in Sources */,
 				A02107B921F4885E00AD309A /* LoginViewController.swift in Sources */,
-				A08E3E8A21F454DB007B0FB3 /* SecondViewController.swift in Sources */,
+				A02107CD21F4CCED00AD309A /* PostViewController.swift in Sources */,
+				A08E3E8A21F454DB007B0FB3 /* GroupViewController.swift in Sources */,
+				A02107C421F499BA00AD309A /* FeedViewController.swift in Sources */,
+				A02107BF21F4906900AD309A /* UserService.swift in Sources */,
 				A02107B721F4880800AD309A /* AUTHViewController.swift in Sources */,
 				A08E3E8621F454DB007B0FB3 /* AppDelegate.swift in Sources */,
-				A08E3E8821F454DB007B0FB3 /* FirstViewController.swift in Sources */,
+				A02107C221F494EF00AD309A /* Utils.swift in Sources */,
 				A02107BB21F489E200AD309A /* InsetRectTextField.swift in Sources */,
 				A02107BD21F48E3500AD309A /* CardView.swift in Sources */,
 				A02107B521F471C900AD309A /* DataService.swift in Sources */,
+				A02107CF21F4DA5D00AD309A /* KeyboardUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

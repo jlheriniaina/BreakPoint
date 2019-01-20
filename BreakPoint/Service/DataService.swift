@@ -35,6 +35,13 @@ public class DataService {
     func createUser(uid: String, user: Dictionary<String, Any>) {
         REF_USER.child(uid).updateChildValues(user)
     }
-    
+    func uploadPost(message: String, uid: String, groupKey: String?, complete: CompleteSucces?) {
+        if groupKey != nil {
+            
+        }else {
+            REF_FEED.childByAutoId().updateChildValues(["content": message, "senderUid": uid])
+            complete!(true)
+        }
+    }
     
 }
