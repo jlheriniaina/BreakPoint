@@ -12,6 +12,8 @@
 		A02107B521F471C900AD309A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107B421F471C900AD309A /* DataService.swift */; };
 		A02107B721F4880800AD309A /* AUTHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107B621F4880800AD309A /* AUTHViewController.swift */; };
 		A02107B921F4885E00AD309A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107B821F4885E00AD309A /* LoginViewController.swift */; };
+		A02107BB21F489E200AD309A /* InsetRectTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107BA21F489E200AD309A /* InsetRectTextField.swift */; };
+		A02107BD21F48E3500AD309A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107BC21F48E3500AD309A /* CardView.swift */; };
 		A08E3E8621F454DB007B0FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8521F454DB007B0FB3 /* AppDelegate.swift */; };
 		A08E3E8821F454DB007B0FB3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8721F454DB007B0FB3 /* FirstViewController.swift */; };
 		A08E3E8A21F454DB007B0FB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8921F454DB007B0FB3 /* SecondViewController.swift */; };
@@ -26,6 +28,8 @@
 		A02107B421F471C900AD309A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A02107B621F4880800AD309A /* AUTHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUTHViewController.swift; sourceTree = "<group>"; };
 		A02107B821F4885E00AD309A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A02107BA21F489E200AD309A /* InsetRectTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetRectTextField.swift; sourceTree = "<group>"; };
+		A02107BC21F48E3500AD309A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A08E3E8221F454DB007B0FB3 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08E3E8521F454DB007B0FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A08E3E8721F454DB007B0FB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		A01C886D21F4654000A6A4E7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A02107BA21F489E200AD309A /* InsetRectTextField.swift */,
+				A02107BC21F48E3500AD309A /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 				A02107B721F4880800AD309A /* AUTHViewController.swift in Sources */,
 				A08E3E8621F454DB007B0FB3 /* AppDelegate.swift in Sources */,
 				A08E3E8821F454DB007B0FB3 /* FirstViewController.swift in Sources */,
+				A02107BB21F489E200AD309A /* InsetRectTextField.swift in Sources */,
+				A02107BD21F48E3500AD309A /* CardView.swift in Sources */,
 				A02107B521F471C900AD309A /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
