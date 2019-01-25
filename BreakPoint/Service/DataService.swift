@@ -9,6 +9,7 @@
 import Foundation
 import Firebase
 import FirebaseDatabase
+import UIKit
 
 public class DataService {
     public static let instance = DataService()
@@ -43,5 +44,48 @@ public class DataService {
             complete!(true)
         }
     }
-    
+    func getUsername(forUID uid: String, handler: @escaping (_ username: String) -> ()) {
+        REF_USER.observeSingleEvent(of: .value) { (userSnapshot) in
+            guard let userSnapshot = userSnapshot.children.allObjects as? [DataSnapshot] else { return }
+            for user in userSnapshot {
+                if user.key == uid {
+                    handler(user.childSnapshot(forPath: "email").value as! String)
+                }
+            }
+        }
+    }
+    func getEmail(forQuery: String, handler: @escaping (_ emailList : [User]) -> ()) {
+        var users = [User]()
+        REF_USER.observe(DataEventType.value) { (snapshot) in
+            guard let userSnapishot = snapshot.children.allObjects as? [DataSnapshot] else { return }
+            for user in userSnapishot {
+                let email = user.childSnapshot(forPath: "email").value as! String
+                if email.contains(forQuery) == true && email != Auth.auth().currentUser?.email {
+                    let user = User(id: user.key, email: email, avatar: #imageLiteral(resourceName: "defaultProfileImage"))
+                    users.append(user)
+                }
+            }
+            handler(users)
+        }
+    }
+    func getIDS(username: [String], handler: @escaping (_ uid : [String]) ->()) {
+        
+        REF_USER.observeSingleEvent(of: DataEventType.value) { (snapshots) in
+            var arrayList = [String]()
+            
+            guard let users = snapshots.children.allObjects as? [DataSnapshot] else { return }
+            for user in users {
+                print(user)
+                let email = user.childSnapshot(forPath: "email").value as! String
+                if username.contains(email){
+                    arrayList.append(user.key)
+                }
+            }
+            handler(arrayList)
+        }
+    }
+    func createGroup(title : String, desc: String, uid: [String], handler: @escaping (_ status: Bool) -> ()){
+        REF_GROUPS.childByAutoId().updateChildValues(["title": title, "description": desc, "members": uid])
+        handler(true)
+    }
 }

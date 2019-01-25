@@ -11,6 +11,7 @@ import Firebase
 
 public class UserService {
     public static let instance = UserService()
+    var users = [User]()
     
     private init(){}
     

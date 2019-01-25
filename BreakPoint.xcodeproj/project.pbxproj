@@ -22,11 +22,16 @@
 		A02107CB21F4C61D00AD309A /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107CA21F4C61D00AD309A /* ProfilViewController.swift */; };
 		A02107CD21F4CCED00AD309A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107CC21F4CCED00AD309A /* PostViewController.swift */; };
 		A02107CF21F4DA5D00AD309A /* KeyboardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02107CE21F4DA5D00AD309A /* KeyboardUIView.swift */; };
+		A02B86C021F626FC007C6496 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B86BF21F626FC007C6496 /* FeedCell.swift */; };
+		A02B86C221F627FC007C6496 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B86C121F627FC007C6496 /* Message.swift */; };
+		A02B86C421F631B2007C6496 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B86C321F631B2007C6496 /* User.swift */; };
 		A08E3E8621F454DB007B0FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8521F454DB007B0FB3 /* AppDelegate.swift */; };
 		A08E3E8A21F454DB007B0FB3 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08E3E8921F454DB007B0FB3 /* GroupViewController.swift */; };
 		A08E3E8D21F454DB007B0FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E3E8B21F454DB007B0FB3 /* Main.storyboard */; };
 		A08E3E8F21F454DB007B0FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08E3E8E21F454DB007B0FB3 /* Assets.xcassets */; };
 		A08E3E9221F454DB007B0FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E3E9021F454DB007B0FB3 /* LaunchScreen.storyboard */; };
+		A0DCB22F21F797710041C039 /* NGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DCB22E21F797710041C039 /* NGroupViewController.swift */; };
+		A0DCB23121F79C100041C039 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DCB23021F79C100041C039 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +50,9 @@
 		A02107CA21F4C61D00AD309A /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		A02107CC21F4CCED00AD309A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		A02107CE21F4DA5D00AD309A /* KeyboardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUIView.swift; sourceTree = "<group>"; };
+		A02B86BF21F626FC007C6496 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		A02B86C121F627FC007C6496 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A02B86C321F631B2007C6496 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A08E3E8221F454DB007B0FB3 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08E3E8521F454DB007B0FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A08E3E8921F454DB007B0FB3 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +60,8 @@
 		A08E3E8E21F454DB007B0FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08E3E9121F454DB007B0FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A08E3E9321F454DB007B0FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DCB22E21F797710041C039 /* NGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGroupViewController.swift; sourceTree = "<group>"; };
+		A0DCB23021F79C100041C039 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		D446794A2BFF50E94883E480 /* Pods-BreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		F3B8859015AD88013DD7E43D /* Pods-BreakPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +96,7 @@
 				A02107C521F4AECC00AD309A /* PopupViewController.swift */,
 				A02107CA21F4C61D00AD309A /* ProfilViewController.swift */,
 				A02107CC21F4CCED00AD309A /* PostViewController.swift */,
+				A0DCB22E21F797710041C039 /* NGroupViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -93,6 +104,8 @@
 		A01C886C21F4653500A6A4E7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A02B86C121F627FC007C6496 /* Message.swift */,
+				A02B86C321F631B2007C6496 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -103,6 +116,8 @@
 				A02107BA21F489E200AD309A /* InsetRectTextField.swift */,
 				A02107BC21F48E3500AD309A /* CardView.swift */,
 				A02107CE21F4DA5D00AD309A /* KeyboardUIView.swift */,
+				A02B86BF21F626FC007C6496 /* FeedCell.swift */,
+				A0DCB23021F79C100041C039 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,12 +328,17 @@
 				A02107CD21F4CCED00AD309A /* PostViewController.swift in Sources */,
 				A08E3E8A21F454DB007B0FB3 /* GroupViewController.swift in Sources */,
 				A02107C421F499BA00AD309A /* FeedViewController.swift in Sources */,
+				A0DCB23121F79C100041C039 /* UserCell.swift in Sources */,
 				A02107BF21F4906900AD309A /* UserService.swift in Sources */,
+				A02B86C421F631B2007C6496 /* User.swift in Sources */,
 				A02107B721F4880800AD309A /* AUTHViewController.swift in Sources */,
 				A08E3E8621F454DB007B0FB3 /* AppDelegate.swift in Sources */,
 				A02107C221F494EF00AD309A /* Utils.swift in Sources */,
 				A02107BB21F489E200AD309A /* InsetRectTextField.swift in Sources */,
+				A02B86C021F626FC007C6496 /* FeedCell.swift in Sources */,
+				A0DCB22F21F797710041C039 /* NGroupViewController.swift in Sources */,
 				A02107BD21F48E3500AD309A /* CardView.swift in Sources */,
+				A02B86C221F627FC007C6496 /* Message.swift in Sources */,
 				A02107B521F471C900AD309A /* DataService.swift in Sources */,
 				A02107CF21F4DA5D00AD309A /* KeyboardUIView.swift in Sources */,
 			);

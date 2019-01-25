@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class AUTHViewController: UIViewController {
 
@@ -16,6 +17,12 @@ class AUTHViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if Auth.auth().currentUser != nil {
+          self.dismiss(animated: true, completion: nil)
+        }
+    }
     @IBAction func onClickSignInFB(_ sender: Any) {
     }
     @IBAction func onClickSignInGooglePlus(_ sender: Any) {

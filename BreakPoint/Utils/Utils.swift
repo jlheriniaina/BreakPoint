@@ -10,3 +10,4 @@ import Foundation
 
 typealias CompletionResult = (_ status: Bool, _ error : Error?) -> ()
 typealias CompleteSucces = (_ succes: Bool) -> ()
+typealias CompleteUser = (_ user : [User] ) -> ()
