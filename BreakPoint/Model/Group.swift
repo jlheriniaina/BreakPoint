@@ -25,7 +25,7 @@ class Group {
     }
     
     init(titre: String, desc: String, membre: [String]) {
-        self._title = title
+        self._title = titre
         self._desc = desc
         self._members = membre
     }
