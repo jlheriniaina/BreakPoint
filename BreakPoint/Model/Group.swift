@@ -7,3 +7,28 @@
 //
 
 import Foundation
+
+class Group {
+    
+    private var _title: String!
+    private var _desc: String!
+    private var _members: [String]!
+    
+    var title: String {
+        return _title
+    }
+    var desc: String {
+        return _desc
+    }
+    var members: [String] {
+        return _members
+    }
+    
+    init(titre: String, desc: String, membre: [String]) {
+        self._title = title
+        self._desc = desc
+        self._members = membre
+    }
+    
+    
+}

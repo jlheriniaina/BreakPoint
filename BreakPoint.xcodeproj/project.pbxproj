@@ -33,6 +33,7 @@
 		A0DCB22F21F797710041C039 /* NGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DCB22E21F797710041C039 /* NGroupViewController.swift */; };
 		A0DCB23121F79C100041C039 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DCB23021F79C100041C039 /* UserCell.swift */; };
 		A0F9CC4821FBA4C100CF4245 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CC4721FBA4C000CF4245 /* Group.swift */; };
+		A0F9CC4A21FBA65B00CF4245 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CC4921FBA65B00CF4245 /* GroupCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		A0DCB22E21F797710041C039 /* NGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGroupViewController.swift; sourceTree = "<group>"; };
 		A0DCB23021F79C100041C039 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		A0F9CC4721FBA4C000CF4245 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		A0F9CC4921FBA65B00CF4245 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		D446794A2BFF50E94883E480 /* Pods-BreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		F3B8859015AD88013DD7E43D /* Pods-BreakPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 				A02107CE21F4DA5D00AD309A /* KeyboardUIView.swift */,
 				A02B86BF21F626FC007C6496 /* FeedCell.swift */,
 				A0DCB23021F79C100041C039 /* UserCell.swift */,
+				A0F9CC4921FBA65B00CF4245 /* GroupCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F9CC4A21FBA65B00CF4245 /* GroupCell.swift in Sources */,
 				A02107CB21F4C61D00AD309A /* ProfilViewController.swift in Sources */,
 				A02107C721F4AECC00AD309A /* PopupViewController.swift in Sources */,
 				A02107B921F4885E00AD309A /* LoginViewController.swift in Sources */,
