@@ -32,6 +32,7 @@
 		A08E3E9221F454DB007B0FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08E3E9021F454DB007B0FB3 /* LaunchScreen.storyboard */; };
 		A0DCB22F21F797710041C039 /* NGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DCB22E21F797710041C039 /* NGroupViewController.swift */; };
 		A0DCB23121F79C100041C039 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DCB23021F79C100041C039 /* UserCell.swift */; };
+		A0F9CC4821FBA4C100CF4245 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CC4721FBA4C000CF4245 /* Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		A08E3E9321F454DB007B0FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0DCB22E21F797710041C039 /* NGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGroupViewController.swift; sourceTree = "<group>"; };
 		A0DCB23021F79C100041C039 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		A0F9CC4721FBA4C000CF4245 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		D446794A2BFF50E94883E480 /* Pods-BreakPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.release.xcconfig"; sourceTree = "<group>"; };
 		F3B8859015AD88013DD7E43D /* Pods-BreakPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakPoint/Pods-BreakPoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 			children = (
 				A02B86C121F627FC007C6496 /* Message.swift */,
 				A02B86C321F631B2007C6496 /* User.swift */,
+				A0F9CC4721FBA4C000CF4245 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				A02107CB21F4C61D00AD309A /* ProfilViewController.swift in Sources */,
 				A02107C721F4AECC00AD309A /* PopupViewController.swift in Sources */,
 				A02107B921F4885E00AD309A /* LoginViewController.swift in Sources */,
+				A0F9CC4821FBA4C100CF4245 /* Group.swift in Sources */,
 				A02107CD21F4CCED00AD309A /* PostViewController.swift in Sources */,
 				A08E3E8A21F454DB007B0FB3 /* GroupViewController.swift in Sources */,
 				A02107C421F499BA00AD309A /* FeedViewController.swift in Sources */,
